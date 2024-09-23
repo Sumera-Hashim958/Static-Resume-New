@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="all.min.css">
+    </head>
+    <body>
+        <div class="print-area">
+            <div class="header">
+                <!-- <div class="images-container"> -->
+                    <img src="image/sum 1.png">
+                    <div class="header-text">
+                        <h1>Sumera Hashim</h1>
+                        <p>Graphics & Web Designer</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="left-area">
+                        <div class="contact">
+                            <h4>CONTACT</h4>
+                            <h5>Phone:</h5>
+                            <p>+923093671527</p>
+                            <h5>Email:</h5>
+                            <p>sumera_bck@yahoo.com</p>
+                            <h5>Home:</h5>
+                            <P>H.NO.R38, Jahangir Town Cooperative Housing Society, Scheme 33</P>
+                        </div>
+                        <div class="skills">
+                            <button id="toggleSkillsBtn" class="btn-skill">Toggle Skills</button>
+                            <h1>SKILLS</h1>
+                            <div id="skillsList" class="bars">
+                                <div class="bar"><p>Photoshop</p><span></span></div>
+                                <div class="bar"><p>HTML</p><span></span></div>
+                                <div class="bar"><p>CSS</p><span></span></div>
+                                <div class="bar"><p>Javascript</p><span></span></div>
+                                <div class="bar"><p>Typescript</p><span></span></div>
+                                <div class="bar"><p>Next.js</p><span></span></div>
+                                <div class="bar"><p>React</p><span></span></div>
+                            </div>
+                        </div>
+                        <div class="follow">
+                            <h1>FOLLOW ME:</h1>
+                            <h4>FACEBOOK:</h4>
+                            <P>FACEBOOK/Ahmad Hashim Ansari</P>
+                            <h4>INSTAGRAM:</h4>
+                            <P>Instagram/SumeraHashim</P>
+                            <h4>TWITTER:</h4>
+                            <P>twitter/sumerahashim</P>
+                            <h4>LINKEDIN:</h4>
+                            <P>linkedin/Sumera Hashim</P>
+                        </div>
+                        </div>
+                        <div class="right-area">
+                            <div class="about">
+                                <h1><span><i class="far fa-user"></i></span>ABOUT ME:</h1>
+                                <P>I want to introduce myself and my skills in a way that is clear, concise, and catches the reader's attention. I am a web developer with years of experience in creating and managing websites. My skills include coding in HTML, CSS, JavaScript, Typescript, Next.jsas well as working with CMSs like WordPress and Drupal.</P>
+                            </div>
+                            <div class="work">
+                                <h1><span><i class="fas fa-suitcase-rolling"></i></span>WORK EXPERIENCE:</h1>
+                                <div class="work-group">
+                                    <h3>Assistant to Vice Principal</h3>
+                                    <h4>Bahria College Karachi</h4>
+                                    <span>2009-2020</span>
+                                    <p> I responsible for Collection and maintenance of official data in soft and hard copy. Compiling and generating: class results, Memoradum, Circulars, Syllabus Breakdown, brochurs on photoshop. 
+
+                                                                </p>
+                                     </div>
+                                     <div class="work-group">
+                                        <h3>Data Entry Operator</h3>
+                                        <h4>Local office</h4>
+                                        <span>2007-2009</span>
+                                        <p>Responsible for performing data entry work and appropriate software; entering, updating, researching, verifying and/or retrieving data into/from various systems; and ensuring the accuracy andconfidentiality of information recorded .</p>
+                                         </div>
+                            <div class="work-group">
+                            <h3>Assistant Direrctor</h3>
+                            <h4>Helix Pharmaceuticals Pvt Ltd</h4>
+                            <span>2002-2007</span>
+                            <p>Generate and maintained (daily basis) production report.
+                                •	Issuance of raw material according to the given formulation from store.
+                                •	Generate monthly production plan.
+                                •	Coordinate with the Marketing department.
+                                •	Make output report at the end of every product.
+                                •	Maintained backup operations for Windows servers.
+                                •	Participated in the planning, scheduling, implementation and testing of all work.
+                                •	Analyzed various forms, report, correspondence, service reports, and other documentation.
+                                
+                                </p>
+                        </div>
+                        </div>
+                        <div class="education">
+                            <h1><span><i class="fas fa-book"></i></span>EDUCATION:</h1>
+                            <div class="edu-group">
+                                <h4>Certified Cloud Applied Generative AI Engineering<br>Governor House</h4>
+                                <span>In-process</span>
+                            </div>
+                            <div class="edu-group">
+                                    <h4>University of Karachi</h4>
+                                g        <span>2013-2014</span>
+                                        <P>Masters in Islamic Studies</P>
+                                <div class="edu-group">
+                                    <h4>Sir Syed Govt Girls College</h4>
+                                    <span>2001-2002</span>
+                                    <p>Beachlor in Humanities</p>
+                                </div>
+                                    <div class="edu-group">
+                                        <h4>Sir Syed Govt Girls College</h4>
+                                        <span>1998-2000</span>
+                                        <P>Intermediate in Humanities</P>
+                                    </div>
+                                        <div class="edu-group">
+                                         <h4>SITE Model School</h4>
+                                        <span>1997-1998</span>
+                                        <P>Matriculation in Humanities</P>
+                                        </div>
+                        </div>
+                        </div>
+            
+                        </div>
+                        </div>
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+        <button id="printBtn">Print CV</button>
+        <script src="script.js" defer></script>
+
+        <!-- <script src="script.js"></script> -->
+        <script>
+            var btn = document.querySelector("printBtn");
+            btn.onclick = () => {
+                window.print();
+            }
+        </script>
+    </body>
+    </html>
